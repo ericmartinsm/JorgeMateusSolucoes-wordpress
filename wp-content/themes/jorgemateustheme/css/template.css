@@ -1,0 +1,83 @@
+
+  body header .divider {
+    background-color: black;
+    padding: 1px;
+  }
+  body header #logo-header {
+    width: 6em;
+    height: 6em;
+  }
+  body #section2 {
+    padding: 6em;
+  }
+  body #services #container-services {
+    display: flex;
+    justify-content: space-between;
+  }
+  body #services #container-services .card {
+    width: 20em;
+  }
+  body #portfolio #container-galeria {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  body #portfolio #container-galeria .img-galeria {
+    width: 30%;
+  }
+  body #portfolio #container-galeria .img-galeria .img {
+    width: 100%;
+  }
+  body #section3 {
+    padding-top: 5em;
+    padding-bottom: 5em;
+  }
+  body #section3 #img-quemsomos {
+    width: 30em;
+  }
+  
+  body #contact svg {
+    width: 20%;
+  }
+  @media (max-width: 576px) {
+    body #section2 {
+      padding: 2em;
+    }
+    body #container-services .card {
+      width: 35em !important;
+    }
+    body #section3 .row {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    body #img-quemsomos {
+      width: 100% !important;
+    }
+  }
+  @media (min-width: 577px) and (max-width: 770px) {
+    body #container-services .card {
+      width: 35em !important;
+    }
+    body #img-quemsomos {
+      width: 100% !important;
+    }
+  }
+  @media (min-width: 771px) and (max-width: 990px) {
+    body #section3 div #img-quemsomos {
+      width: 40em !important;
+      margin: 0, auto !important;
+    }
+  }
+  @media (min-width: 992px) {
+    body {
+      background: rgba(0, 0, 0, 0);
+    }
+  }
+  @media (min-width: 1200px) {
+    body {
+      background: rgba(0, 0, 0, 0);
+    }
+  }
+  
+  /*# sourceMappingURL=style.css.map */
+  
